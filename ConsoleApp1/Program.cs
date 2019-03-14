@@ -69,6 +69,7 @@ namespace ConsoleApp1
                 }
             }
             Array.Sort(arr2);
+            PrintArray("Начальный массив", arr);
             PrintArray("отсортированные четные элементы ", arr1);
             PrintArray("отсортированные нечетные элементы", arr2);
             j = 0;
@@ -93,7 +94,7 @@ namespace ConsoleApp1
                 }
                 arr[size - 1] = arr1[j];
             }
-            PrintArray("отсортированный массив", arr);
+            PrintArray("Отсортированный массив", arr);
             Console.WriteLine("Произведение положительных ненулевых элементов массива =" + d);
             Console.WriteLine("Cумму элементов массива, расположенных до минимального элемента ({0}) = {1}", min, sym);
             Console.ReadKey();
